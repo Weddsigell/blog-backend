@@ -19,7 +19,7 @@ dependencies = [
 requires-dist = [
     { name = "django", specifier = "==2.2.24" },
     { name = "django-debug-toolbar", specifier = "==2.2.1" },
-    { name = "environs", specifier = "==5.2.1" },
+    { name = "environs", specifier = ">=14.2.0" },
     { name = "folium", specifier = "==0.10.0" },
     { name = "pillow", specifier = ">=11.2.1" },
     { name = "setuptools", specifier = ">=80.9.0" },
@@ -109,15 +109,15 @@ wheels = [
 
 [[package]]
 name = "environs"
-version = "5.2.1"
+version = "14.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "marshmallow" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a1/af/b0adfa7846ca81af0ea64e8a970f6e056a071e611cc03f8a23e4aa562680/environs-5.2.1.tar.gz", hash = "sha256:d92784bdeb6fe038688b19128b5d9a4d9eda4d33f1a38c21be8cad54c769a763", size = 12504 }
+sdist = { url = "https://files.pythonhosted.org/packages/2e/eb/805549ab44db6a9a8206973e8283b49734b903f85d3fed549db78b0817fc/environs-14.2.0.tar.gz", hash = "sha256:2b6c78a77dfefb57ca30d43a232270ecc82adabf67ab318e018084b9a3529e9b", size = 32317 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5f/c9/6b576b8b374dfe78d9435988e6a53497822f31b9da5bdd446343ad1a4d1b/environs-5.2.1-py2.py3-none-any.whl", hash = "sha256:ab4362c638aa67177a832aedf1609a95b46179ea9f5b1af8c90cbfe70ca7e6cf", size = 9829 },
+    { url = "https://files.pythonhosted.org/packages/5b/75/e309b90c6f95a6e01aa86425ff567d3c634eea33bde915f3ceb910092461/environs-14.2.0-py3-none-any.whl", hash = "sha256:22669a58d53c5b86a25d0231c4a41a6ebeb82d3942b8fbd9cf645890c92a1843", size = 15733 },
 ]
 
 [[package]]
